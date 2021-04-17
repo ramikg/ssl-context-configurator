@@ -9,7 +9,7 @@ Through some CPython fun, this library finds the underlying `SSL_CTX` C object i
 
 ## Prerequisites
 
-- CPython 3.2+ or 2.7.10+
+- CPython 3.2+ or 2.7.9+
 - A copy of LibSSL (preferably the one used by CPython)
 
 ## Usage example
