@@ -5,7 +5,7 @@
 Python's `SSLContext` object – typical in HTTPS connections – is basically a wrapper around the OpenSSL struct `SSL_CTX`.  
 Unfortunately, Python does not allow the full SSL/TLS configuration power offered by OpenSSL.
 
-Through some CPython fun, this library finds the underlying `SSL_CTX` C object in memory, and configures it by calling the OpenSSL function `SSL_CONF_cmd`.
+Through some _ctypes_ fun, this library finds the underlying `SSL_CTX` C object in memory, and configures it by calling the OpenSSL function `SSL_CONF_cmd`.
 
 ## Prerequisites
 
