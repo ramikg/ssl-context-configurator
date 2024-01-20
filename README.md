@@ -1,6 +1,7 @@
 # SSL Context Configurator
 
-**Caution – This library relies on CPython internals. Use at your own discretion.**
+> [!CAUTION]
+> This library relies on CPython internals. Use at your own discretion.
 
 Python's `SSLContext` object – typical in HTTPS connections – is basically a wrapper around the OpenSSL struct `SSL_CTX`.  
 Unfortunately, Python does not allow the full SSL/TLS configuration power offered by OpenSSL.
